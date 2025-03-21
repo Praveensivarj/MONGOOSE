@@ -24,3 +24,5 @@ router.put('/movies/:id', (req,res)=>{
 router.delete('/movies/:id', (req,res)=>{
 
 });
+
+module.exports = router;
