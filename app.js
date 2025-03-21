@@ -9,11 +9,12 @@ app.get('/', (req,res)=>{
     })
 });
 
-app.listen(3000, (err)=>{
+const port = 3000;
+app.listen(port, (err)=>{
     if(err){
         console.log(err);
     }
     else{
-        console.log("Server is running on port");
+        console.log(`Server is running on http://localhost:${port}`);
     }
 });
